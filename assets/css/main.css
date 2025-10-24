@@ -2331,6 +2331,12 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
+		.image.center {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
 		.image.right {
 			float: right;
 			padding: 0 0 1em 1.5em;
@@ -2368,6 +2374,7 @@ input, select, textarea {
 				}
 
 			}
+			
 
 /* Table */
 
@@ -2563,7 +2570,7 @@ input, select, textarea {
 /* Tiles */
 
 	.tiles {
-		display: -moz-flex;
+display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
