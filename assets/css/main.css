@@ -1785,6 +1785,17 @@ input, select, textarea {
 		margin-top: -1em;
 	}
 
+	#is-data-table, #citius-sheet {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 100%;
+	}
+	
+	#is-data-table > img, #citius-sheet > img {
+		max-width: 50rem;
+	}
+
 	@media screen and (max-width: 736px) {
 
 		header p {
